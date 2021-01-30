@@ -1,3 +1,4 @@
+/* universal styles */
 h1{
   text-align: center;
   margin-top: 30px;
@@ -14,4 +15,20 @@ h2{
 
 .headShot{
   width: 250px;
+}
+
+.table1Row{
+  font-weight: bold;
+}
+
+.table{
+  border-collapse: collapse;
+}
+
+td{
+  padding: 5px;
+}
+
+.table1Row{
+  background-color: aqua;
 }
