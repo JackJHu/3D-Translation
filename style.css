@@ -1,17 +1,75 @@
 /* universal styles */
-h1{
+
+header{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: aliceblue;
+  background-color: #333333;
+  margin: 0 auto;
+  width: 100%;
+  z-index: 6;
+}
+
+nav{
+  margin: auto auto;
+  display: inline-block;
+  width: 100%;
+  padding: 2px;
+}
+
+nav li{
+  display: inline-block;
+  margin: 0 0.5em;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
   text-align: center;
-  margin-top: 30px;
-  font-size: 70px;
-  color: black;
-  background-image: url("./Img/headerBackgroud.png");
-  background-position: center;
+}
+
+h6{
+  display: inline-block;
+  padding-right: 1em;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin: 0 0;
+}
+
+h1{
+  padding-top: 3em;
+  font-size: 50px;
+  margin-top: 0ex;
+}
+
+.btn-main {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.firstSection{
+  background-image: url(./Img/statue-of-liberty-GettyImages-539667859.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 800px;
 }
 
 h2{
   font-family: Georgia;
   color: blue;
 }
+
+
+
 
 .headShot{
   width: 250px;
