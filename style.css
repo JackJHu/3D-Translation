@@ -16,7 +16,7 @@ nav{
   padding: 2px;
 }
 
-nav li{
+.stripLi{
   display: inline-block;
   margin: 0 0.5em;
 }
@@ -28,7 +28,13 @@ nav li{
   text-align: center;
 }
 
-h6{
+#mainPageIntro{
+  position: relative;
+  top: 1.3em;
+  font-size: 18px;
+}
+
+h5{
   display: inline-block;
   padding-right: 1em;
   font-family: 'Times New Roman', Times, serif;
@@ -37,7 +43,7 @@ h6{
 }
 
 h1{
-  padding-top: 3em;
+  padding-top: 2em;
   font-size: 50px;
   margin-top: 0ex;
 }
@@ -63,16 +69,21 @@ h1{
   height: 800px;
 }
 
-h2{
-  font-family: Georgia;
-  color: blue;
+
+.aboutUs{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: aliceblue;
+  background-color: #333333;
+  margin: 0 auto;
+  width: 100%;
 }
 
-
-
-
-.headShot{
-  width: 250px;
+.secondSection{
+  background-image: url(./Img/U.S.\ Passport.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .table1Row{
