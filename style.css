@@ -101,3 +101,24 @@ td{
 .table1Row{
   background-color: aqua;
 }
+
+.footerWrapperContainer{
+  background-color: #333333;
+}
+
+.priceQuote{
+  margin-top: auto auto;
+}
+
+.formElm{
+  margin: 0.5em;
+  display: inline-block;
+}
+
+.priceQuoteBlocks{
+  text-align: left;
+}
+
+.footerP{
+  color: #fff;
+}
