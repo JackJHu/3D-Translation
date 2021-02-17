@@ -3,50 +3,33 @@
     <head>
         <title>3D Translation</title>
         <link href="./style.css" type="text/css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
     </head>
 
 
     <body>
+    
+      <div class="grid">
 
-      <header>
-        <nav>
-          <ul>
-            <h5>
-              3D Translation
-            </h5>
-            <li class="stripLi"> Team </li> <li class="stripLi"> Service </li> <li class="stripLi"> Price Quote </li> <li class="stripLi"> Contact </li>
-          </ul>
-        </nav>
-  
-      </header>
-        
-      <main>
-        <div class="firstSection">
-          <div class="container">  
-            <h1>U.S. Based Immigration Translation Service</h1>
-            <a href="#" class="btn-main"> Get Started </a>
-            <div id="mainPageIntro">
-              <p>Human, not machine. </p>
-              <p>With immigration at focus, we provides a variety of translation services to fit your need.</p>
-              <p>A personal touch all for $15 a page.</p>
-            </div>
-          </div>
-        </div>
-      </main>
-      
-      <section class="aboutUs">
-        <ul>
+        <header>
           <h5>
             3D Translation
           </h5>
-          <li class="stripLi"> Team </li>
-        </ul>
+
+          <nav>
+            <span>Team</span>
+            <span>Price Quote</span>
+          </nav>
+        </header>
+        
 
         <main>
-          <div class="secondSection">
-            <div class="container">  
-              <h1>Our Team</h1>
-              
+
+          <div class="firstSection">
+            <div class="container"> 
+              <h1>U.S. Based Immigration Translation Service</h1>
+              <a href="#" class="btn-main"> Get Started </a>
               <div id="mainPageIntro">
                 <p>Human, not machine. </p>
                 <p>With immigration at focus, we provides a variety of translation services to fit your need.</p>
@@ -54,81 +37,94 @@
               </div>
             </div>
           </div>
+        
+        
+          <section class="team">
+              <div class="container">  
+                <h1>Our Team</h1>
+                <span id="tm1">TM 1</span>
+                <span id="tm2">TM 2</span>
+                <span id="tm3">TM 3</span>
+                <span id="tm4">TM 4</span>
+                <span id="tm5">TM 5</span>
+                <span id="tm6">TM 6</span>
+
+              </div>
+          </section>
+
+          <section class="priceQuote">
+            <div class="thirdSection">
+              <div class="container">  
+                <h1>Price Quote</h1>
+                <hr>
+          
+                <form action="#" method="GET" class="priceQuoteBlocks">
+                  <div class="formElm">
+                    <label for="sourceLanguage">Source Language</label>
+                    <select name="sourceLanguage" id="sourceLanguage">
+                      <option value="spanish">Spanish</option>
+                      <option value="chinese">Chinese</option>
+                      <option value="english">English</option>
+                      <option value="korean">Korean</option>
+                    </select>
+                  </div>
+
+                  <div class="formElm">
+                    <label for="targetLanguage">Target Language</label>
+                    <select name="targetLanguage" id="targetLanguage">
+                      <option value="spanish">Spanish</option>
+                      <option value="chinese">Chinese</option>
+                      <option value="english">English</option>
+                      <option value="korean">Korean</option>
+                    </select>
+                  </div>
+
+                  <div class="formElm">
+                    <label for="pagesWords">Amount(in pages or words)</label>
+                    <input name="pagesWords" id="pagesWords" type="number">
+                  </div>
+
+                  <div class="formElm">
+                    <label for="dueDate">Due Date</label>
+                    <input type="date" id="dueDate" name="dueDate">
+                  </div>
+
+                  <div>
+                    <label for="sampleMaterial">Sample</label>
+                    <br>
+                    <textarea id="sampleMaterial" name="sampleMaterial" rows="20" cols="80">
+                    Put a sample of your material here:
+                    </textarea>
+                  </div>
+
+
+                  <br>
+                  <br>
+                  <input type="submit" value="Submit to get a price quote">
+                </form>
+                </div>
+              </div>
+            </div>
+          
+          </section>
+
         </main>
-      </section>
 
-      <section class="priceQuote">
-        <div class="thirdSection">
-          <div class="container">  
-            <h1>Price Quote</h1>
-            <hr>
-      
-            <form action="#" method="GET" class="priceQuoteBlocks">
-              <div class="formElm">
-                <label for="sourceLanguage">Source Language</label>
-                <select name="sourceLanguage" id="sourceLanguage">
-                  <option value="spanish">Spanish</option>
-                  <option value="chinese">Chinese</option>
-                  <option value="english">English</option>
-                  <option value="korean">Korean</option>
-                </select>
+        <footer>
+          <div class="footerWrapperContainer">
+            <div class="footerSections">
+              <div class="footerSection">
+                <p class="footerP">
+                  3D Translation LLC
+                  <br>
+                  Translation Advertisement.
+                </p>
               </div>
-
-              <div class="formElm">
-                <label for="targetLanguage">Target Language</label>
-                <select name="targetLanguage" id="targetLanguage">
-                  <option value="spanish">Spanish</option>
-                  <option value="chinese">Chinese</option>
-                  <option value="english">English</option>
-                  <option value="korean">Korean</option>
-                </select>
-              </div>
-
-              <div class="formElm">
-                <label for="pagesWords">Amount(in pages or words)</label>
-                <input name="pagesWords" id="pagesWords" type="number">
-              </div>
-
-              <div class="formElm">
-                <label for="dueDate">Due Date</label>
-                <input type="date" id="dueDate" name="dueDate">
-              </div>
-
-              <div>
-                <label for="sampleMaterial">Sample</label>
-                <br>
-                <textarea id="sampleMaterial" name="sampleMaterial" rows="20" cols="80">
-                Put a sample of your material here:
-                </textarea>
-              </div>
-
-
-              <br>
-              <br>
-              <input type="submit" value="Submit to get a price quote">
-            </form>
-            
-             
             </div>
           </div>
-        </div>
-      </main>
-      </section>
-      
-      <footer>
-        <div class="footerWrapperContainer">
-          <div class="footerSections">
-            <div class="footerSection">
-              <p class="footerP">
-                3D Translation LLC
-                <br>
-                Translation Advertisement.
-              </p>
-            </div>
-          </div>
-        </div>
-      </footer>
+        </footer>
 
+      </div>
 
     </body>
 

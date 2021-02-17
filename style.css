@@ -1,5 +1,13 @@
 /* universal styles */
 
+body{
+  display: grid;
+}
+
+.grid{
+  grid-template: atuo / repeat(6, 1fr);
+}
+
 header{
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: aliceblue;
@@ -7,18 +15,21 @@ header{
   margin: 0 auto;
   width: 100%;
   z-index: 6;
+  display: inline-flex;
+  height: 3em;
+  align-items: center;
 }
 
-nav{
-  margin: auto auto;
-  display: inline-block;
-  width: 100%;
-  padding: 2px;
+header h5{
+  padding-left: 0.4em;
 }
 
-.stripLi{
-  display: inline-block;
-  margin: 0 0.5em;
+header nav{
+  padding: 2em;
+}
+
+header nav span{
+  padding: 0.4em;
 }
 
 .container {
@@ -67,8 +78,19 @@ h1{
   -o-background-size: cover;
   background-size: cover;
   height: 800px;
+  grid-column-start: 1;
+  grid-column-end: 5;
 }
 
+.team .container{
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+  height: fit-content;
+}
+
+.team .container h1{
+  grid-area: 1 / 1 / 2 / 4;
+}
 
 .aboutUs{
   font-family: Georgia, 'Times New Roman', Times, serif;
